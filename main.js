@@ -1,8 +1,11 @@
-let firstNumber = ('13');
+let firstNumber = 13;
 
-let secondNumber = ('27');
+let secondNumber = 30;
 
-function suma(firstNumber, secondNumber) {
-    let result = firstNumber + secondNumber;
+function suma(num1, num2) {
+    let result = num1 + num2;
+
     return result;
 }
+
+console.log( suma(firstNumber, secondNumber));
